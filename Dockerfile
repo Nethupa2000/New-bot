@@ -13,7 +13,7 @@ COPY package.json .
 
 RUN npm install && npm install -g qrcode-terminal pm2
 
-COPY . .
+COPY . . 
 
 EXPOSE 5000
 
